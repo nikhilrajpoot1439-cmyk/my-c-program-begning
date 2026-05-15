@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=C program problem
+Comment=Open '/home/aneel/Desktop/C program problem'
+Icon=inode-directory
+Name[en_US]=C program problem
+Comment[en_US]=Open '/home/aneel/Desktop/C program problem'
+Icon[en_US]=inode-directory
+URL=file:///home/aneel/Desktop/C%20program%20problem
+Type=Link
