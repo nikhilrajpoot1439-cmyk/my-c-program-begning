@@ -1,0 +1,1 @@
+ // printf("The marks at index %d is %d\n",i,marks[i]);
