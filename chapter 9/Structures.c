@@ -1,7 +1,7 @@
 /*
 
 Array and Strings .....> It holds Similar data(int, float, char)
-Structure can holds ......> Dissimilar Data 
+Structure can holds ......> Dissimilar Data
 
 
 A C structure can be create as follow
@@ -21,13 +21,13 @@ strcpy(e1.name, "Nikhil");
 e1. code = 101;
 e1.salary = 2445555;
 
-So a structure in C is a collection of Variables of different types under a single name 
+So a structure in C is a collection of Variables of different types under a single name
 
 .....>>>>>>>>>########### Why Use Structure >>>>>>>.....?
 
 We can create the data types in the employee structure seprately but when the number of properties in a structure increases , it becomes difficult for us to create data variables without structures. >>>>> IN a NUTSHELLS
 
->a. Structure keep the data organized 
+>a. Structure keep the data organized
 >b. Structure make data management easy for the programmer
 
 
@@ -64,5 +64,40 @@ Structure are stored in contigious memory location . For the structure"e1" of ty
      ptr = &e1;
 
      printf("%d", *(ptr).code)
+
+
+     ..>>>>>>>>>>>>>>>>>>########## PASSING STRUCTUCTURE TO A FUNCTION:->>>>>>>>>>>>>>.........
+
+      A structure can be passed to a function just like any other data type
+
+
+      ................SYNTAX.............
+      void show(struct employee e);
+
+
+      ..>>>>>>>>>>>>>>>>>########## TYPEDEF KEYWORD:->>>>>>>>>>>>>>.........
+
+We can use "typedef" keyword to create an alias name for the data types in c
+"typedef" is more commonly used with Structure.
+
+     ................SYNTAX.............
+
+     struct complex
+     {
+     float real ;
+     float img;
+     };
+
+     typedef struct Complex
+     {
+     float real ;
+     float img;
+     } ComplexNo;
+
+
+
+
+
+
 
 */
