@@ -1,13 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-FILE *ptr;
-ptr = fopen("Nikhil.txt", "r");
-int num;
-fscanf(ptr, "%d", &num);
-printf("The value of num is %d\n", num);
+    FILE *ptr;
+    ptr = fopen("Nikhil.txt", "r");
+    int num;
+    fscanf(ptr, "%d", &num);
+    printf("The value of num is %d\n", num);
 
-fscanf(ptr, "%d", &num);
-printf("The value of num is %d\n", num);
-return 0;
+    fscanf(ptr, "%d", &num);
+    printf("The value of num is %d\n", num);
+    fclose(ptr);
+    return 0;
 }
